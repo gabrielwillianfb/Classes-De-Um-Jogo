@@ -25,8 +25,11 @@ além disso, deve ter um método chamado atacar que deve atender os seguientes r
 - e no {ataque} deve seguir uma descrição diferente conforme o tipo, seguindo a tabela abaixo:
 
 se mago -> no ataque exibir (usou magia)
+
 se guerreiro -> no ataque exibir (usou espada)
+
 se monge -> no ataque exibir (usou artes marciais)
+
 se ninja -> no ataque exibir (usou shuriken)
 
 ## Saída
@@ -34,5 +37,7 @@ se ninja -> no ataque exibir (usou shuriken)
 Ao final deve se exibir uma mensagem:
 
 - "O jogador {nome} da classe {classe} atacou usando {ataque}"
+- 
   ex: O jogador fulano da classe Mago atacou usando Magia;
+  
   O jogador fulano2 da classe Guerreiro atacou usando Espada.
